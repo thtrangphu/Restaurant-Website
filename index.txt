@@ -1,4 +1,4 @@
-Grilli - Amazing & Delicious Food
+Hải Yến - Amazing & Delicious Food
 
 This is a Restaurant html template made by codewithsadee
 
@@ -22,7 +22,7 @@ booking@restaurant.com
 
 #---------- HEADER ----------#
 
-alt = Grilli - Home
+alt = Hải Yến - Home
 
 aria-label = close menu
 <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
@@ -40,7 +40,7 @@ London 9578, UK
 
 Open: 9.30 am - 2.30pm
 
-booking@grilli.com
+booking@Hải Yến.com
 
 Booking Request
 +88-123-123456
@@ -307,11 +307,11 @@ View Our Blog
 
 #---------- FOOTER ----------#
 
-alt = grilli home
+alt = Hải Yến home
 
 Restaurant St, Delicious City, London 9578, UK
 
-booking@grilli.com
+booking@Hải Yến.com
 
 Booking Request : +88-123-123456
 
@@ -339,7 +339,7 @@ Twitter
 Youtube
 Google Map
 
-&copy; 2022 Grilli. All Rights Reserved | Crafted by
+&copy; 2022 Hải Yến. All Rights Reserved | Crafted by
 
 https://github.com/codewithsadee
 

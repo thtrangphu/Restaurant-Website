@@ -168,3 +168,19 @@ window.addEventListener("mousemove", function (event) {
   }
 
 });
+
+// document.addEventListener('DOMContentLoaded', function() {
+//   var readMoreBtn = document.getElementById('readMore');
+//   var text = document.querySelector('.section-text');
+
+//   readMoreBtn.addEventListener('click', function(e) {
+//     e.preventDefault(); // Ngăn chặn hành động mặc định của thẻ a
+
+//     // Kiểm tra và mở rộng nội dung
+//     if (text.style.overflow === 'hidden') {
+//       text.style.overflow = 'visible';
+//       text.style.webkitLineClamp = 'none';
+//       readMoreBtn.style.display = 'none'; // Ẩn nút Đọc Thêm sau khi mở rộng
+//     }
+//   });
+// });

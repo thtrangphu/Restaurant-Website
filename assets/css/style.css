@@ -2,13 +2,6 @@
   #index.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -50,7 +43,7 @@
 
   /* font-family */
   --fontFamily-forum: 'Forum', cursive;
-  --fontFamily-dm_sans: 'DM Sans', sans-serif;
+  --fontFamily-dm_sans: 'Roboto', sans-serif;
 
   /* font-size */
   --fontSize-display-1: calc(1.3rem + 6.7vw);
@@ -257,6 +250,10 @@ body.nav-active { overflow: hidden; }
 
 
 
+h1, .card-title {
+  font-family: 'Lobster', sans-serif !important; 
+}
+
 
 
 /*-----------------------------------*\
@@ -405,8 +402,11 @@ body.nav-active { overflow: hidden; }
   overflow: hidden;
   z-index: 1;
 }
-
-.bg-black-10 { background-color: var(--smoky-black-2); }
+/* 
+.bg-black-10 { background-color: var(--smoky-black-2); } */
+.bg-black-10 {
+  background-color: rgba(0, 0, 0, 0.7);
+}
 
 .grid-list {
   display: grid;
@@ -768,6 +768,18 @@ body.nav-active { overflow: hidden; }
 
 
 
+/* Định nghĩa style cho các hình ảnh của slider */
+.slider-image {
+  position: relative;
+}
+
+/* Thêm lớp phủ màu đen */
+.slider-image::before {
+  content: "";
+  position: absolute;
+  opacity: 0.5;
+  z-index: 1;
+}
 
 
 /*-----------------------------------*\
@@ -815,6 +827,18 @@ body.nav-active { overflow: hidden; }
   pointer-events: none;
   user-select: none;
   z-index: -1;
+}
+
+.hero .slider-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--black);
+  opacity: 0.6;
+  z-index: 1;
 }
 
 .hero .slider-item.active .slider-bg {
@@ -903,6 +927,7 @@ body.nav-active { overflow: hidden; }
 .service .section-title { margin-block-end: 16px; }
 
 .service .section-text { margin-block-end: 40px; }
+
 
 .service-card { overflow: hidden; }
 
@@ -1177,7 +1202,7 @@ body.nav-active { overflow: hidden; }
 
 .form-right .headline-1 { margin-block-end: 40px; }
 
-.form-right .contact-label { margin-block-end: 5px; }
+.form-right .contact-label { margin-top: 40px; margin-block-end: 5px; }
 
 .form-right .separator { margin: 20px auto; }
 
